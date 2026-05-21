@@ -1,6 +1,6 @@
 # 2026-Q2 Bothy HCD Audit
 
-**Date:** 2026-05-19 (original) → reformatted 2026-05-20 into Coach House HCD audit template
+**Date:** 2026-05-19 (original audit) → reformatted 2026-05-20 into Coach House HCD audit template → addendum 2026-05-20 (Part 5)
 **Auditor:** Founder + AI co-pilot (self-conducted; external auditor scheduled Q3)
 **Reference framework:** [`PRINCIPLES.md`](../PRINCIPLES.md), [`PROCESS.md`](../PROCESS.md), [`ANTI-PATTERNS.md`](../ANTI-PATTERNS.md)
 **Live URL:** https://coach-house-grants.vercel.app (Bothy; will alias to bothy.so)
@@ -8,6 +8,8 @@
 **Prior audit:** None (first)
 
 This is a deliberately honest audit. Bothy just published a white paper arguing that "lived HCD" is the only kind worth claiming. If our own product can't survive its own framework, that's the thing to know first.
+
+> **Update 2026-05-20:** between the audit's writing on 2026-05-19 and this reformat on 2026-05-20, the four specific public-surface failures named in Parts 1-2 were addressed. Marketing copy + Hero demo card + pricing labels were all updated. See **Part 5 — Resolved since audit** at the bottom of this document for the change-log. The Parts 1-2 grading is preserved as written (the point-in-time honest snapshot); Part 5 is the response.
 
 ---
 
@@ -209,4 +211,40 @@ If we don't grade ourselves against our own framework, we forfeit the right to s
 **Next audit:** 2026-08-19 (quarterly cadence).
 **External auditor:** one pilot user + one peer-org founder, paid 2 hours of $100 credit + a thank-you note.
 
-— *Coach House research desk*
+---
+
+## Part 5 — Resolved since audit (2026-05-20)
+
+The four specific failures named in Parts 1, 2, and 3 were all corrected the day after the audit was written. The Parts 1-2 grading above is preserved as the honest point-in-time snapshot from 2026-05-19; this section logs what happened next so future readers don't read a stale audit and assume the failures persisted.
+
+| Original finding (2026-05-19) | Status (2026-05-20) | Where the fix lives |
+|---|---|---|
+| **"~4 hours/week reclaimed" claim** — FAIL on Test 1 + Test 5 | **RESOLVED** | Claim removed from `src/components/marketing/Solution.tsx`. Replaced with: *"We're early in measuring time-saved with real customers — we'll publish what we find on the research page."* The retired claim is logged publicly at coach-house-grants.vercel.app/process under "What we've gotten wrong." |
+| **Strikethrough-tools vignette** — FAIL on Test 4 (dignity) | **RESOLVED** | `src/components/marketing/Solution.tsx` rewritten. The tools list no longer uses strikethrough styling; the surrounding copy is now: *"You've built this out of necessity. It works, but it costs you time and attention every week."* Public correction logged at /process. |
+| **Hero demo card showed buyer view (metric tiles)** — FAIL on Test 3 (worker-first) | **RESOLVED** | `src/components/marketing/Hero.tsx` rebuilt to the [worker-first-dashboard](../patterns/worker-first-dashboard.md) pattern. The card now leads with *"Next thing today — Thank-you to Brown-Forman"* (a single action), then *Coming this week* (a small ranked list), then the funder-context block. Aggregates removed from the lead. Public correction logged at /process. |
+| **Premium tier AI features advertised as available** — FAIL on Anti-pattern #8 (marketing faster than product) | **RESOLVED** | `src/components/marketing/Pricing.tsx` updated. The Premium tier now labels both items as *"Coming Q3 2026"*: *"AI-drafted reports · Coming Q3 2026"* and *"Monthly opportunity refresh · Coming Q3 2026"*. Public commitment logged at /process. |
+| **Hero demo card numbers ambiguity ($184K, 12 grants)** — PARTIAL on Test 5 (verifiable-claim border case) | **RESOLVED** | `src/components/marketing/Hero.tsx` adds a *"Sample data"* italic microcopy in the demo card chrome (top-right of the browser-frame). Ambiguity removed. |
+
+**Updated public-surface score (2026-05-20 state):** approximately 23 PASS / 4 PARTIAL / 0 FAIL across the 27 graded items. The Parts 1-2 scoring above remains the audited 2026-05-19 score; this row is the *after.*
+
+**Anti-pattern self-grade — movement:**
+
+| Anti-pattern | Original (2026-05-19) | Now (2026-05-20) | Note |
+|---|---|---|---|
+| #4 Marketing faster than product | VIOLATING | CLEAN | "Coming Q3" labels added; correction log live |
+| #6 Buyer-user substitution | PARTIAL VIOLATION | CLEAN (on public surface) | Hero demo card rebuilt to worker-first pattern |
+| #1 Research theater | AT RISK | AT RISK | Unchanged; closes when first real conversation is captured |
+| #3 Wrong users | VIOLATING | VIOLATING | Unchanged; same fix (run one conversation) |
+| #5 Sample of one | VIOLATING | VIOLATING | Unchanged; same fix |
+| #7 Inhuman pace | VIOLATING | VIOLATING | Unchanged; pace discipline is a Q3 commitment |
+
+**What remains open for Q3** (from Parts 2-3, unchanged):
+
+1. Run one real Lonna conversation (cleared #3 + softens #5).
+2. Wire one outcome metric per Q3 priority #2 (closes #5 + #10).
+3. Cap product work at a sustainable cadence (cleared #7).
+4. Run the per-feature 5-gate on the next feature shipped (closes #6 procedurally).
+
+The marketing surface is now substantially repaired. The practice around the marketing surface — observation, measurement, the gate — is the Q3 build.
+
+— *Addendum, Coach House research desk, 2026-05-20*
