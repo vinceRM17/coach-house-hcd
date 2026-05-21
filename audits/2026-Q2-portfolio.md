@@ -147,3 +147,61 @@ Coach House publishes these so the practice is visible. If we don't grade oursel
 **External auditor target:** one customer / user + one peer-org founder per project — paid $100 product credit / coffee card + a thank-you note.
 
 — *Coach House research desk*
+
+---
+
+## Part 5 — Extended portfolio coverage (added 2026-05-20)
+
+The original portfolio audit above covered the four most-active Coach House products. Same-day extension: the rest of the Coach House Vercel team was audited as well. The portfolio now reflects ~40 deployed projects.
+
+### Extended coverage summary
+
+| Audit cluster | Count | Audit file | Headline |
+|---|---|---|---|
+| **Hubs** | 2 | [`2026-Q2-grant-hub.md`](./2026-Q2-grant-hub.md), [`2026-Q2-church-funding-hub.md`](./2026-Q2-church-funding-hub.md) | Grant Hub: structurally clean indexing of 27 dashboards; needs link-health re-check. Church Funding Hub: **strongest sourcing of any Coach House product** thanks to the 2,400-line research base + dignity reframe on "No Candid Profile = normal." |
+| **Grant dashboard family** | 1 audit covering ~30 dashboards | [`2026-Q2-grant-dashboard-family.md`](./2026-Q2-grant-dashboard-family.md) | Template-cloned; ~13 PASS / 2 AT RISK on public surface; universal practice gaps. The propagation-safety markers (LONNA-FIX-V1, AUDIT-FIX-V1-JS, CALENDAR-SAFETY-V1) emerged from real incidents and are documented disciplined responses |
+| **Church dashboard family** | 1 audit covering 2 dashboards | [`2026-Q2-church-dashboard-family.md`](./2026-Q2-church-dashboard-family.md) | Strongest 10-question profile of any audited family. Research-first sequence + dignity discipline carry the rest |
+| **Standalones with memory** | 8 compact audits | [resolve-ky-campaign](./2026-Q2-resolve-ky-campaign.md), [openeye-dashboard](./2026-Q2-openeye-dashboard.md), [dendrifund-dashboard](./2026-Q2-dendrifund-dashboard.md), [canopy-wireframe](./2026-Q2-canopy-wireframe.md), [claude-projects-hub](./2026-Q2-claude-projects-hub.md), [universal-design-app](./2026-Q2-universal-design-app.md), [life-restructure](./2026-Q2-life-restructure.md), [cain-family-os](./2026-Q2-cain-family-os.md) | Mixed profiles. **Universal Design App** is exceptional — schema-level anti-pattern preempts (no aggregate score, UD ≠ ADA, 17-term prohibited-vocab) on anti-pattern #8. Life Restructure + Cain Family OS surface the studio's own pace tension |
+| **Standalones without memory** | 12 combined into 1 audit | [`2026-Q2-standalones-no-memory.md`](./2026-Q2-standalones-no-memory.md) | Inference-only audits with explicit gap markers. Four high-consequence projects (SOP Chat / Active Heroes, Veteran Resource Management, IDD Benefit Navigator, Dave AI) warrant priority follow-up. **coachhouse.so deserves its own Bothy-depth audit at next cycle** — it's the studio's own front door |
+
+**Total audit coverage:** 4 original + 2 hubs + 2 families + 8 standalones + 12 inference-only = **~28 distinct projects covered**, with the 30 grant dashboards covered family-level.
+
+### Portfolio-wide patterns visible only at this scale
+
+Things visible from auditing 30+ projects together that weren't visible from auditing four:
+
+1. **The studio's strongest HCD postures are in the *research-first* projects:** Church Funding Hub and Universal Design App both invested heavily in research / sourcing before product. Both have markedly better marketing-tests + anti-pattern scores than the rest of the portfolio. This is a Coach House pattern worth naming as such in the practice repo.
+
+2. **Schema-level anti-pattern preempts are a Coach House innovation worth documenting.** Universal Design App's frozen output schema + 17-term prohibited-vocabulary list + no-aggregate-score regression test implement anti-pattern #8 defense *in code* rather than *in prose*. The Church Funding Hub's "No Candid Profile = normal" reframe is the same pattern at the design-language layer. **Recommend documenting this as `patterns/anti-pattern-preempt-in-code.md`** in a future iteration.
+
+3. **The pace warning is the studio's single most-visible anti-pattern.** It appears across:
+   - Bothy (audited; flagged)
+   - Grant dashboard family (high-cadence builds across April-May 2026)
+   - The current Coach House HCD session itself (Month 1 + 2 + 3 + audit response + full-portfolio extended coverage in one stretch)
+   - Life Restructure (Vince's own assessment names this as a core problem)
+   
+   The studio claims HCD; the studio's *own pace* violates HCD's seventh anti-pattern more than any other. **This is the single most important Q3 commitment.**
+
+4. **Memory files are the operating loop.** Twelve projects without memory makes future audits inference-only. Writing memory files is now part of the practice, not an optional artifact. The next cycle's first task is **closing the memory gap on the priority projects** (thorn, dave-ai, coachhouse.so, and the four high-consequence standalones).
+
+5. **The Coach House Vercel team has cruft.** The `web` project (renders as a Resolve KY Campaign Command Center duplicate), plus 20 archive projects from the 2026-05 cleanup, plus `active-heroes-lodgify-sop` with no URL. Vercel hygiene action item.
+
+### Revised Q3 priorities
+
+The original five priorities still hold. The extended audit surfaces three additions:
+
+6. **Audit coachhouse.so to Bothy depth.** The studio's own front door deserves the studio's own discipline.
+
+7. **Write memory files for the priority no-memory projects.** Thorn, Dave AI, coachhouse.so first. Then the four high-consequence ones (SOP Chat / Active Heroes, Veteran Resource Management, IDD Benefit Navigator).
+
+8. **Honor the pace warning.** Document a "sustainable cadence" commitment in the practice repo + apply it. Cap product work at a pace the studio can defend; the practice doesn't get to claim HCD while shipping HCD-relief at unsustainable hours.
+
+### What we got right (extended)
+
+Adding to the original list:
+
+- **Two clusters that exemplify Coach House HCD at its best**: Church Funding Hub (research-base + dignity reframe) and Universal Design App (schema-level anti-pattern preempts). These are *patterns* the studio can build on.
+- **The propagation-safety discipline that emerged from real incidents** (LONNA-FIX-V1, AUDIT-FIX-V1-JS, CALENDAR-SAFETY-V1, the 3-check audit) is itself a form of HCD applied to operations.
+- **The willingness to honestly audit ~28 projects in a single sweep**, including the projects we have no context for, is the credibility move the framework asks for.
+
+— *Extended coverage addendum, Coach House research desk, 2026-05-20*
