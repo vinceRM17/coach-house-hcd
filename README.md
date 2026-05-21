@@ -42,7 +42,7 @@ Coach House HCD shows up as seven concrete things, not seven slogans:
 | [`audits/`](./audits/) | Quarterly per-project audits and the audit template. |
 | [`patterns/`](./patterns/) | Reusable design + code patterns shipped across Coach House projects. |
 | [`playbooks/`](./playbooks/) | Step-by-step guides for kicking off a tool, auditing one, interviewing without leading. |
-| [`scaffold/`](./scaffold/) | Files that drop into new Coach House repos — PR template, README template, skeleton folders. |
+| [`scaffold/`](./scaffold/) | Files that drop into new Coach House repos — PR template, README template, skeleton folders, [HCD badge component](./scaffold/HcdBadge.tsx). |
 | [`scripts/`](./scripts/) | Helper scripts (e.g., initialize-a-new-Coach-House-project). |
 | [`publications/`](./publications/) | Index of public output — white papers, posts, talks. |
 | [`CONTRIBUTING.md`](./CONTRIBUTING.md) | How to suggest changes to this practice. |

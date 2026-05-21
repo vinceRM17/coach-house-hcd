@@ -1,0 +1,60 @@
+<!--
+  Coach House HCD badge — static HTML variant.
+
+  Drop this snippet into the footer of any Coach House product that
+  doesn't use React (static dashboards, raw HTML pages, etc.).
+
+  Customize:
+    • Replace [AUDIT_URL] with the link to this product's latest quarterly audit.
+    • Replace [AUDIT_LABEL] with the audit label (e.g., "Q2 2026 audit").
+
+  Style assumptions: this snippet uses inline CSS-variable references
+  (`var(--line)`, `var(--card)`, `var(--accent)`, etc.) so it picks up
+  the host site's design tokens. If the host site doesn't define those
+  variables, swap them for explicit colors.
+
+  Per the seven studio mechanisms, mechanism #6 is "studio visible
+  signature" — every Coach House product surfaces a small mark that
+  links back to the practice + that product's audit. Visible accountability.
+-->
+<div
+  style="
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.625rem;
+    border: 1px solid var(--line, #e5e0d4);
+    background: var(--card, #ffffff);
+    padding: 0.375rem 0.875rem;
+    border-radius: 9999px;
+    font-size: 0.75rem;
+    color: var(--muted, #6b6863);
+    line-height: 1.4;
+  "
+  role="contentinfo"
+  aria-label="Built with Coach House HCD"
+>
+  <span style="display: inline-flex; align-items: center; gap: 0.375rem; font-weight: 500; color: var(--foreground, #1c1a16);">
+    <!-- Compass-style mark; swap for an inline SVG if you prefer -->
+    <span aria-hidden="true" style="color: var(--accent, #c8862a); font-size: 0.8em;">◈</span>
+    Built with Coach House HCD
+  </span>
+  <span aria-hidden="true" style="color: var(--muted, #6b6863); opacity: 0.6;">·</span>
+  <a
+    href="https://github.com/vinceRM17/coach-house-hcd"
+    target="_blank"
+    rel="noreferrer"
+    style="color: inherit; text-decoration: none;"
+  >
+    Practice
+  </a>
+  <span aria-hidden="true" style="color: var(--muted, #6b6863); opacity: 0.6;">·</span>
+  <a
+    href="[AUDIT_URL]"
+    target="_blank"
+    rel="noreferrer"
+    style="color: inherit; text-decoration: none;"
+  >
+    [AUDIT_LABEL]
+  </a>
+</div>
