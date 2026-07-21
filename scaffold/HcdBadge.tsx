@@ -4,7 +4,7 @@ import { Compass } from "lucide-react";
  * The visible studio signature for Coach House products.
  *
  * Drop into the footer of any Coach House product page. Links to:
- *   - The Coach House HCD practice repo (https://github.com/vinceRM17/coach-house-hcd
+ *   - The Coach House HCD practice repo (https://github.com/Coach-House/coach-house-hcd
  *     — pending transfer to the Coach-House org)
  *   - This product's most recent quarterly audit (pass the URL via `auditUrl`)
  *
@@ -33,7 +33,7 @@ export function HcdBadge({
       </span>
       <span className="text-muted/60" aria-hidden="true">·</span>
       <a
-        href="https://github.com/vinceRM17/coach-house-hcd"
+        href="https://github.com/Coach-House/coach-house-hcd"
         target="_blank"
         rel="noreferrer"
         className="hover:text-foreground transition"

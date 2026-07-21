@@ -9,7 +9,7 @@
 
 ## Where things stand
 
-The studio practice now exists. The Q2 portfolio audit is complete and live at github.com/vinceRM17/coach-house-hcd. Bothy has been updated with the practice link + HCD badge. ~28 projects audited.
+The studio practice now exists. The Q2 portfolio audit is complete and live at github.com/Coach-House/coach-house-hcd. Bothy has been updated with the practice link + HCD badge. ~28 projects audited.
 
 What's *not* yet happened:
 

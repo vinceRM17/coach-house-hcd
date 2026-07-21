@@ -43,7 +43,7 @@ This project follows the [Coach House HCD practice](https://github.com/coach-hou
 
 ## The visible studio signature
 
-This product carries the Coach House HCD badge in its footer — a small mark linking back to the practice repo + this product's most recent audit. The component lives at [`scaffold/HcdBadge.tsx`](https://github.com/vinceRM17/coach-house-hcd/blob/main/scaffold/HcdBadge.tsx) (React) and [`scaffold/hcd-badge.html`](https://github.com/vinceRM17/coach-house-hcd/blob/main/scaffold/hcd-badge.html) (static HTML).
+This product carries the Coach House HCD badge in its footer — a small mark linking back to the practice repo + this product's most recent audit. The component lives at [`scaffold/HcdBadge.tsx`](https://github.com/Coach-House/coach-house-hcd/blob/main/scaffold/HcdBadge.tsx) (React) and [`scaffold/hcd-badge.html`](https://github.com/Coach-House/coach-house-hcd/blob/main/scaffold/hcd-badge.html) (static HTML).
 
 ---
 

@@ -86,7 +86,7 @@ The Q2 2026 audit flagged Bothy's landing-page "strikethrough tools" vignette (S
 
 The Bothy README will be updated to add this line near the top:
 
-> Coach House HCD practice: https://github.com/Coach-House/coach-house-hcd (currently at vinceRM17/coach-house-hcd pending org transfer)
+> Coach House HCD practice: https://github.com/Coach-House/coach-house-hcd (currently at Coach-House/coach-house-hcd pending org transfer)
 
 ---
 
